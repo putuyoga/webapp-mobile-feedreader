@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/jquery.mobile.squareui.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="js/jquery.mobile-1.4.2.min.js"></script>
+  <script src="js/xml2json.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+	<div data-role="page" id="mainPage">
+		<div data-role="header">
+			<h1>PutuYoga.Com</h1>
+			<a href="#aboutPage" class="ui-btn-right">tentang</a>
+		</div>
+		<div data-role="content" role="main">
+			<ul data-role="listview" id="listArtikel">
+			</ul>
+		</div>
+	</div>
+	<div data-role="page" id="detailPage">
+		<div data-role="header">
+			<a href="#mainPage" data-icon="home">Beranda</a>
+			<h1>PutuYoga.Com</h1>
+			<a href="#aboutPage">tentang</a>
+		</div>
+		<div data-role="content" role="main">
+			<h2 id="judul"></h2>
+			<p id="konten"></p>
+		</div>
+	</div>
+	<div data-role="page" id="aboutPage">
+		<div data-role="header">
+			<a href="#mainPage" data-icon="home">Beranda</a>
+			<h1>PutuYoga.Com</h1>
+		</div>
+		<div data-role="content" role="main">
+			<h2>Versi 1.0</h2>
+			<p id="konten">App ini digunakan untuk membaca konten dari putuyoga.com</p>
+			<p style="font-weight:bold;">by Permana Studio<br/>putuyoga@gmail.com</p>
+		</div>
+	</div>
+</body>
+</html>
